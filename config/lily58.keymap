@@ -52,8 +52,6 @@
 &kp LCTRL   &trans        &trans          &trans          &mkp MB3         &trans        &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp KP_EQUAL      &trans       &trans           &trans
                                           &trans          &trans           &trans        &trans    &trans  &trans                &kp DEL                &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
