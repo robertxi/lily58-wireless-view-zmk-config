@@ -76,11 +76,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4                       &arrow                &dictSeparator         &fatarrow      &trans       &trans           &trans
-&trans      &kp PAGE_UP    &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &trans                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_MINUS   &kp KP_PLUS  &kp KP_MULTIPLY  &kp KP_DIVIDE
-&trans      &kp PAGE_DOWN  &trans          &msc SCRL_DOWN  &mkp MB1         &mkp MB2                           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp PIPE     &kp EXCLAMATION  &kp KP_EQUAL
-&trans      &trans         &trans          &trans          &mkp MB3         &trans        &trans    &pipeNext  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp KP_EQUAL   &pipeNext    &kp BACKSLASH    &trans
-                                           &trans          &trans           &trans        &trans    &trans     &trans                &kp DEL                &trans
+&bt BT_CLR    &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4                       &arrow                &dictSeparator         &fatarrow      &trans       &trans           &trans
+&kp CAPSLOCK  &kp PAGE_UP    &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &trans                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_MINUS   &kp KP_PLUS  &kp KP_MULTIPLY  &kp KP_DIVIDE
+&trans        &kp PAGE_DOWN  &trans          &msc SCRL_DOWN  &mkp MB1         &mkp MB2                           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp PIPE     &kp EXCLAMATION  &kp KP_EQUAL
+&trans        &trans         &trans          &trans          &mkp MB3         &trans        &trans    &pipeNext  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp KP_EQUAL   &pipeNext    &kp BACKSLASH    &trans
+                                             &trans          &trans           &trans        &trans    &trans     &trans                &kp DEL                &trans
             >;
         };
 
