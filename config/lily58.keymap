@@ -17,7 +17,7 @@
         arrow: arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp MINUS &kp MINUS &kp GT>;
+            bindings = <&kp MINUS &kp GT>;
             label = "ARROW";
         };
 
